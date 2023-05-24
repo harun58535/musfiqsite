@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width: 100%;  
+    margin: 40px;
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;     
+}
+.hero{
+    padding: 100px 0;
+    width: 80%;
+    box-sizing: border-box;
+  
+}
+.header{
+    display: flex;
+    position: relative;
+}
+.navber{
+    width: 25%;
+    text-align: center;
+    overflow-y: hidden;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+}
+.navber h3{
+    padding: 30px 0;
+}
+.navber-manu li{
+    padding: 15px 0;
+}  
+.navber-manu li a{
+    font-size: 18px;
+    color: #706a6acc;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}  
+.navber-item{
+    padding: 40px 0;
+}
+.navber-item h5{
+    font-size: 15px;
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.banner{
+    height: 100vh;
+    margin: 40px;
+    background-image: url(img/jeans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h2{
+    font-size: 64px;
+    line-height: 90px;
+    margin: 10px 0;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner h4{
+    font-size: 36px;
+    line-height: 50px;
+    margin: 10px 0;
+    font-weight: 400;
+    padding-left: 30px;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner .banner-btn{
+    margin: 30px 0;
+    padding-left: 30px;
+}
+.banner .banner-btn a{
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: black;
+    font-size: 18px;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.banner .banner-btn a:hover{
+    background-color: #cccccc;
+    color:#000;
+}
+
+
+.hero-sec{
+    width: 74%;
+    margin: auto 0 0 auto;
+}
+.hero-icon i{
+    padding: 0 6px;
+    font-size: 18px;
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin: 0 40px -30px 40px;
+}
+.blog h5{
+    padding-left: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #C6C6C6;
+    font-size: 14px;
+}
+.blog-card {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 30px;
+	padding: 2.5rem;
+}
+.blog-item img{
+    width: 100%;
+}
+.blog-item p{
+    font-size: 15px;
+    margin: 15px 0;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.blog-item h2{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    padding: 50px 0;
+    background-color: black;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+
+}
+.content h2{
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: 400;
+    color: #ffff;
+
+}
+.content p{
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: 400;
+    color: #ffff;
+    letter-spacing: 1px;
+}
+.content input{
+    width: 95%;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.content .content-btns{
+    margin: 25px 0;
+}
+.content .content-btns a{
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: red;
+    font-size: 16px;
+    color: #ffff;
+}
+.content .content-btns a:hover{
+    background-color: #cccccc;
+    color:#000;
+}
+.form-sec{
+    width: 100%;
+}
+.form-card{
+    display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 30px;
+	padding: 3rem;
+}
+.form-header{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-header h3{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 400;
+
+}
+.form-header p{
+    font-size: 12px;
+    margin: 12px 0;
+    font-weight: 400;
+}
+.form-item .form-group{
+    margin: 10px 0;
+}
+.form-item .form-group input{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.form-group .form-sub{
+    margin: 15px 0;
+}
+.form-item .form-btns{
+    text-align: center;
+}
+.form-item .form-sub a{
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 16px;
+    background-color: #000000;
+    color: #ffff;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+.form-item .form-sub a:hover{
+    color: #000000;
+    background-color: #A9A9A9;
+}
+.gift-card{
+    margin: 15px 0;
+    text-align: center;
+}
+.gift-card h3{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 400;
+
+}
+.gift-card ul li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.store{
+    margin: 15px 0;
+}
+.store ul li{
+    margin: 15px 0;
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.store .store-icon{
+    display: flex;
+    margin: 40px 0;
+}
+.store .store-icon i{
+    font-size: 16px;
+    padding: 0 3px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .blog-card{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+    .form-card{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    .blog-card{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+
+    }
+    .form-card{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+
+    }
+}
